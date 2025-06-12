@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
-import MovieList from "../components/MovieList";
+import MovieList from "../../components/MovieList/MovieList";
 
 export default function MoviesPage() {
   const [movies, setMovies] = useState([]);
@@ -16,7 +16,7 @@ export default function MoviesPage() {
         "https://api.themoviedb.org/3/search/movie",
         {
           params: {
-            api_key: "YOUR_API_KEY",
+            api_key: "e1d0de03ad7280ec25f73bd35a1bd045",
             query,
           },
         }

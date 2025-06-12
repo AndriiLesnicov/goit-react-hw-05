@@ -11,7 +11,7 @@ export default function MovieCast() {
       const response = await axios.get(
         `https://api.themoviedb.org/3/movie/${movieId}/credits`,
         {
-          params: { api_key: "YOUR_API_KEY" },
+          params: { api_key: "e1d0de03ad7280ec25f73bd35a1bd045" },
         }
       );
       setCast(response.data.cast);

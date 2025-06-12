@@ -1,0 +1,19 @@
+.reviews {
+  padding: 20px;
+}
+
+.reviewItem {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.author {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.content {
+  font-size: 14px;
+  color: #333;
+}

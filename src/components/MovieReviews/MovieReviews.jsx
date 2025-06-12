@@ -11,7 +11,7 @@ export default function MovieReviews() {
       const response = await axios.get(
         `https://api.themoviedb.org/3/movie/${movieId}/reviews`,
         {
-          params: { api_key: "YOUR_API_KEY" },
+          params: { api_key: "e1d0de03ad7280ec25f73bd35a1bd045" },
         }
       );
       setReviews(response.data.results);
